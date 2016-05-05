@@ -60,7 +60,7 @@ function processProductListResponse(status, productListResponse){
 				}
 			}
 		}else{
-			if(productListResponse.opstatus == 5001){
+			if(productListResponse.opstatus == 5001 || productListResponse.opstatus == 8009){
 				kony.ui.Alert({
 				message: "Please enter valid search keyword",
 				alertType:constants.ALERT_TYPE_ERROR,
