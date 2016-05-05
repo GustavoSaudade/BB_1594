@@ -14,11 +14,6 @@ function openProductList(categoryId, categoryName) {
 }
 
 function loadCategoryProductList() {
-	//hide screen while loading...
-	FormProductList.SegmentProdList.setVisibility(false);
-	FormProductList.FlexPagination.setVisibility(false);
-	FormProductList.show();
-	closeHamburguer2();
 
 	kony.print("@@@@@@@@@@@@@@@@@@@@@@@@@> SEARCHING PRODUCTS FOR CATEGORY: "
 		+ currentCategoryId 
@@ -48,7 +43,10 @@ function processProductListResponse(status, productListResponse){
 			if (productListResponse.products != null && productListResponse.products.length > 0){
 				//arranging in the WidGet...
 				arrangeProducts(productListResponse.products);
-				setPagination(productListResponse)
+				setPagination(productListResponse);
+
+				FormProductList.show();
+				closeHamburguer2();
 			}else{
 				kony.ui.Alert({
 					message: "No products in this category...",
@@ -58,7 +56,7 @@ function processProductListResponse(status, productListResponse){
 					alertHandler: handle1}, {});
 					
 				function handle1(response){
-					productListNavigateToBack();
+					clickCategoryBack();
 				}
 			}
 		}else{
