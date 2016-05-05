@@ -11016,7 +11016,7 @@
                         </xhtmlNormal>
                         <xhtmlNormal_override>false</xhtmlNormal_override>
                     </paddings>
-                    <SText>Total number of reviews: 7</SText>
+                    <SText></SText>
                     <overridePerferred>
                         <width>true</width>
                         <height>false</height>
