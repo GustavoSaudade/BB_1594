@@ -1,0 +1,70 @@
+{
+	"AS_Button_0943f9693b094e9a8b76b23daf2b2d13": {
+		"id": "AS_Button_0943f9693b094e9a8b76b23daf2b2d13",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"actions": [
+			{
+				"id": "MOVE_ACTION____92983030fcd0499db2d6bd5dad7154a1",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "FormProductImagesScreen",
+				"widgetId": "FlexMenuHamburguer",
+				"itemKUID": "70c8c2d670fc4d85b8f768eb9bf7e8d6",
+				"widgetKUID": "7f9ee76dff994c138537c90d6ddcc169",
+				"animationObject": {
+					"left": "-10%",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "250"
+				},
+				"start": "Immediately",
+				"animationId": "MOVE_ACTION____92983030fcd0499db2d6bd5dad7154a1",
+				"displayAnimationId": "MOVE_ACTION____92983030fcd0499db2d6bd5dad7154a1",
+				"forkedPlatform": "all",
+				"parentId": null,
+				"callbackType": null
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___ccc9b0814365491eae5a281ca8a32b85",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "FormProductImagesScreen",
+				"propertyName": "isVisible",
+				"propertyValue": "false",
+				"itemKUID": "70c8c2d670fc4d85b8f768eb9bf7e8d6",
+				"widgetKUID": "862c896afee2470ca29290831d7d4d55",
+				"isSkinProperty": false,
+				"forkedPlatform": "all",
+				"parentId": null,
+				"callbackType": null
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___97b03a3819e3499aa41ce78eb6c2e7a4",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "FormProductImagesScreen",
+				"propertyName": "isVisible",
+				"propertyValue": "true",
+				"itemKUID": "70c8c2d670fc4d85b8f768eb9bf7e8d6",
+				"widgetKUID": "5465bb7567f04137a704717e60cd3e28",
+				"isSkinProperty": false,
+				"forkedPlatform": "all",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

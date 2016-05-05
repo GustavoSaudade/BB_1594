@@ -1,0 +1,95 @@
+{
+	"AS_Button_0b31f828a381479f846fb1a3fef2e79e": {
+		"id": "AS_Button_0b31f828a381479f846fb1a3fef2e79e",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"actions": [
+			{
+				"id": "___onClick_ae989e197edd41fb9d4509350991ef6c",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "FormCart",
+				"widgetId": "FlexPrincipalCart",
+				"itemKUID": "548a2820066c4ff6bf75547831e8f8b5",
+				"widgetKUID": "5d3a6013660e45d1896a048321d6e0d3",
+				"animationObject": {
+					"left": "90%",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "250"
+				},
+				"start": "Immediately",
+				"animationId": "MOVE_ACTION____551bc649a9374b0aba2c44195428cf62",
+				"displayAnimationId": "MOVE_ACTION____551bc649a9374b0aba2c44195428cf62",
+				"forkedPlatform": "all",
+				"callbackType": null
+			},
+			{
+				"id": "___onClick_dffeb39b83ab48c0923ebc204449824f",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "FormCart",
+				"widgetId": "FlexMenuHamburguer",
+				"itemKUID": "548a2820066c4ff6bf75547831e8f8b5",
+				"widgetKUID": "2ef3bc41c75b4e0a90a21df3023d4a3f",
+				"animationObject": {
+					"left": "-10%",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "250"
+				},
+				"start": "Immediately",
+				"parentAnimation": "MOVE_ACTION____551bc649a9374b0aba2c44195428cf62",
+				"animationId": "MOVE_ACTION____3714b07bb5fb4f5f9c10b739134c789c",
+				"displayAnimationId": "MOVE_ACTION____3714b07bb5fb4f5f9c10b739134c789c",
+				"forkedPlatform": "all",
+				"callbackType": null
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY____58be174a006948e4a8d70d6f4c7cfdba",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "FormCart",
+				"propertyName": "isVisible",
+				"propertyValue": "false",
+				"itemKUID": "548a2820066c4ff6bf75547831e8f8b5",
+				"widgetKUID": "229f5a2db15e496aa58831fec514e0b3",
+				"isSkinProperty": false,
+				"forkedPlatform": "all",
+				"callbackType": null
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY____389adf5b96494cc8b5c6f5c06963ae36",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "FormCart",
+				"propertyName": "isVisible",
+				"propertyValue": "true",
+				"itemKUID": "548a2820066c4ff6bf75547831e8f8b5",
+				"widgetKUID": "61b51fb533d140bebae8fc33154bfa7c",
+				"isSkinProperty": false,
+				"forkedPlatform": "all",
+				"callbackType": null
+			}
+		]
+	}
+}

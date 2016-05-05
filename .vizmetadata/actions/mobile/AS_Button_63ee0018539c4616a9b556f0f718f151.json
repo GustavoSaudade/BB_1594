@@ -1,0 +1,99 @@
+{
+	"AS_Button_63ee0018539c4616a9b556f0f718f151": {
+		"id": "AS_Button_63ee0018539c4616a9b556f0f718f151",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"actions": [
+			{
+				"id": "MOVE_ACTION____d8672c398a074f9c8d327b45341c3dcf",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "FormProductDetail",
+				"widgetId": "FlexMenuHamburguer",
+				"itemKUID": "be71bb3a6f8b4a509bb2d066d5e2cbec",
+				"widgetKUID": "25f337cb07924cabbe3deb921509211f",
+				"animationObject": {
+					"left": "-10%",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "250"
+				},
+				"start": "Immediately",
+				"animationId": "MOVE_ACTION____d8672c398a074f9c8d327b45341c3dcf",
+				"displayAnimationId": "MOVE_ACTION____d8672c398a074f9c8d327b45341c3dcf",
+				"forkedPlatform": "all",
+				"parentId": null,
+				"callbackType": null
+			},
+			{
+				"id": "MOVE_ACTION____10155f1c4ce341b4b2c2601995eb9d70",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "FormProductDetail",
+				"widgetId": "FlexPrincipalProductDetail",
+				"itemKUID": "be71bb3a6f8b4a509bb2d066d5e2cbec",
+				"widgetKUID": "0796df54dd7145dcb21d799b80b8782e",
+				"animationObject": {
+					"left": "90%",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "250"
+				},
+				"start": "Immediately",
+				"parentAnimation": "MOVE_ACTION____d8672c398a074f9c8d327b45341c3dcf",
+				"animationId": "MOVE_ACTION____10155f1c4ce341b4b2c2601995eb9d70",
+				"displayAnimationId": "MOVE_ACTION____10155f1c4ce341b4b2c2601995eb9d70",
+				"forkedPlatform": "all",
+				"parentId": null,
+				"callbackType": null
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___84a871ed9ad843a598316e85c07859ab",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "FormProductDetail",
+				"propertyName": "isVisible",
+				"propertyValue": "false",
+				"itemKUID": "be71bb3a6f8b4a509bb2d066d5e2cbec",
+				"widgetKUID": "00366d465fa84c528b1cc8f8df3df474",
+				"isSkinProperty": false,
+				"forkedPlatform": "all",
+				"parentId": null,
+				"callbackType": null
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___f1ea81537ead41f9834a36dffb9b2b32",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "FormProductDetail",
+				"propertyName": "isVisible",
+				"propertyValue": "true",
+				"itemKUID": "be71bb3a6f8b4a509bb2d066d5e2cbec",
+				"widgetKUID": "0a7af3d017fa4874bf0bfc0907e85b4a",
+				"isSkinProperty": false,
+				"forkedPlatform": "all",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

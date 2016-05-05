@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <includecookies></includecookies>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>bestBuy</group>
+        <httpmethod></httpmethod>
+        <id>getProductReviews</id>
+        <identityProvider></identityProvider>
+        <identityProviderName></identityProviderName>
+        <ignoreProxy>false</ignoreProxy>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue>c8ar37znr5983r6rvhzf8yra</defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>apiKey</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>c8ar37znr5983r6rvhzf8yra</testvalue>
+            <value></value>
+        </inparam>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue>8524004</defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>sku</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>8524004</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>{
+   "canonicalUrl": "/v1/reviews(sku=8524004)?format=json&amp;apiKey=c8ar37znr5983r6rvhzf8yra",
+   "currentPage": 1,
+   "from": 1,
+   "partial": false,
+   "queryTime": "0.002",
+   "reviews": [
+      {
+         "aboutMe": [],
+         "comment": "Bought this but returned it ASAP. Great for small areas like an office, but even in our kitchen it just wasn't powerful enough.",
+         "id": 69021358,
+         "rating": 3,
+         "reviewer": [{"name": "Oreho"}],
+         "sku": 8524004,
+         "submissionTime": "2015-11-08T22:21:58",
+         "title": "Good for small areas..."
+      },
+      {
+         "aboutMe": [],
+         "comment": "Love the style, size and battery life on this speaker!! Sound quality is great! I can connect it to any blue tooth device and stream music outside or inside. Great buy!",
+         "id": 67491130,
+         "rating": 5,
+         "reviewer": [{"name": "Warringtonbuyer99"}],
+         "sku": 8524004,
+         "submissionTime": "2015-10-21T13:20:44",
+         "title": "Great speakers"
+      },
+      {
+         "aboutMe": [],
+         "comment": "Great portable speakers - if WiFi is not a strong signal you have to connect to the device with the cord supplied.",
+         "id": 66913073,
+         "rating": 4,
+         "reviewer": [{"name": "TMR211"}],
+         "sku": 8524004,
+         "submissionTime": "2015-10-14T17:53:39",
+         "title": "Great portable speakers"
+      },
+      {
+         "aboutMe": [],
+         "comment": "Bought for party to pair with my phone, fully charged battery lasted all night long and great sound quality",
+         "id": 66909947,
+         "rating": 4,
+         "reviewer": [{"name": "cjmaurer39"}],
+         "sku": 8524004,
+         "submissionTime": "2015-10-14T17:29:48",
+         "title": "awesome backyard speaker"
+      },
+      {
+         "aboutMe": [],
+         "comment": "This is a great speaker, with great sound and was easy to set up.",
+         "id": 65101950,
+         "rating": 5,
+         "reviewer": [{"name": "Pop1223"}],
+         "sku": 8524004,
+         "submissionTime": "2015-09-30T18:28:46",
+         "title": "Great speaker"
+      },
+      {
+         "aboutMe": [],
+         "comment": "We really enjoy our Pasadena Portable Bluetooth Rechargeable Speaker System. It can go anywhere in the house or backyard and easily connects to your phone or other device. Has great sound quality.",
+         "id": 58702435,
+         "rating": 5,
+         "reviewer": [{"name": "Hschauss"}],
+         "sku": 8524004,
+         "submissionTime": "2015-07-31T17:37:26",
+         "title": "Easy to use and great sound"
+      },
+      {
+         "aboutMe": [],
+         "comment": "Purchased for our back deck. Purchased just one speaker [you can get two for stereo]. Easy to set up. Easy to connect. Sound is rich and has depth. Has weathered rain, wind and birds.",
+         "id": 58194479,
+         "rating": 4,
+         "reviewer": [{"name": "bubba"}],
+         "sku": 8524004,
+         "submissionTime": "2015-07-25T15:58:29",
+         "title": "Excellent"
+      }
+   ],
+   "to": 7,
+   "total": 7,
+   "totalPages": 1,
+   "totalTime": "0.007"
+}</outtemplate>
+        <outTemplateHeader>Server: thin 1.6.1 codename Death Proof
+X-Mashery-Responder: prod-j-worker-lax-02.mashery.com
+Content-Length: 3248
+Date: Thu, 10 Dec 2015 16:28:02 GMT
+Content-Type: application/json; charset=UTF-8
+</outTemplateHeader>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>total</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>/total</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>reviews</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>/reviews</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>title</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>title</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>reviews</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>reviewerName</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>reviewer/name</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>reviews</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>rating</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>rating</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>reviews</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>comment</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>comment</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>reviews</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://api.bestbuy.com/v1/reviews(sku=$sku)?format=json&amp;apiKey=$apiKey</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

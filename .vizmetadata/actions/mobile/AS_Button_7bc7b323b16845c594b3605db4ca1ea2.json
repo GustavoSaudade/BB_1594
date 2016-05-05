@@ -1,0 +1,41 @@
+{
+	"AS_Button_7bc7b323b16845c594b3605db4ca1ea2": {
+		"id": "AS_Button_7bc7b323b16845c594b3605db4ca1ea2",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"actions": [
+			{
+				"id": "___onClick_f77773bde7f44561982853f7a4e4e3d5",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "FormPrincipal",
+				"widgetId": "FlexSearch",
+				"itemKUID": "994f2edd3ec548cc89ea222fc752edd6",
+				"widgetKUID": "dcacc75267294d6fa1be136b0438b31e",
+				"animationObject": {
+					"top": "100%",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "250"
+				},
+				"start": "Immediately",
+				"animationId": "MOVE_ACTION____23312baf7b944386b4e1c88c27164fdc",
+				"displayAnimationId": "MOVE_ACTION____23312baf7b944386b4e1c88c27164fdc",
+				"forkedPlatform": "all",
+				"callbackType": null
+			}
+		]
+	}
+}

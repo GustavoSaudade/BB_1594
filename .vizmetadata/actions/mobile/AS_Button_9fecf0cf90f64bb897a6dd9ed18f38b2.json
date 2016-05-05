@@ -1,0 +1,13 @@
+{
+	"AS_Button_9fecf0cf90f64bb897a6dd9ed18f38b2": {
+		"id": "AS_Button_9fecf0cf90f64bb897a6dd9ed18f38b2",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"actions": []
+	}
+}

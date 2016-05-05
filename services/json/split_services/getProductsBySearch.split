@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <includecookies></includecookies>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>bestBuy</group>
+        <httpmethod></httpmethod>
+        <id>getProductsBySearch</id>
+        <identityProvider></identityProvider>
+        <identityProviderName></identityProviderName>
+        <ignoreProxy>false</ignoreProxy>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue>c8ar37znr5983r6rvhzf8yra</defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>apiKey</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>c8ar37znr5983r6rvhzf8yra</testvalue>
+            <value></value>
+        </inparam>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue>search=Xbox One</defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>criteria</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>search=Xbox One</testvalue>
+            <value></value>
+        </inparam>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue>10</defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>pageSize</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>10</testvalue>
+            <value></value>
+        </inparam>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue>1</defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>page</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>1</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>{
+   "canonicalUrl": "/v1/products(search=\"Xbox* One*\")?show=name,longDescription,sku,salePrice,regularPrice,onSale,freeShipping,customerReviewAverage,image,new&amp;format=json&amp;apiKey=c8ar37znr5983r6rvhzf8yra",
+   "currentPage": 1,
+   "from": 1,
+   "partial": false,
+   "products": [
+      {
+         "customerReviewAverage": null,
+         "freeShipping": true,
+         "image": "http://images.bestbuy.com/BestBuy_US/images/products/3284/3284876_sa.jpg",
+         "longDescription": "Technology &amp;#8212; it's constantly changing, especially when it comes to media and the way we're able to access and enjoy it. The world is inundated with mobile devices. From cell phones and tablets to e-readers and more, you need your media to be as flexible and portable as your devices are. Now, there's a simple solution for mobilizing your media library &amp;#8212; 123 Copy DVD. This software makes it easy to copy, burn and save your files, so you can get the most out of your entertainment collection.  123 Copy DVD works with a variety of popular file formats, including MKV, H.264, MP4, AVI, DivX, XViD and WMV, making it easy to create DVDs from your favorite blockbuster hits, Internet videos or home movies. Back up your entire media collection by making a copy of all of your DVDs. Make a copy with Quick-Play and you can even remove distracting, time-consuming ads. Burn downloaded movies to play in standard DVD players or save them to compatible mobile devices, such as select Apple&amp;#174; iPhone&amp;#174;, iPad&amp;#174; and iPod&amp;#174; models, Android cell phones and tablets, PSPs, PlayStation 3 and Xbox 360 consoles, Kindle Fire and more. 123 Copy DVD gives you the flexibility to make exact 1:1 copies or compressed versions of your favorite movies. Managing your media in this constantly evolving digital age doesn't have to be hard &amp;#8212; in fact, it can be as easy as 123.",
+         "name": "123 Copy DVD - Windows",
+         "new": false,
+         "onSale": false,
+         "regularPrice": 29.99,
+         "salePrice": 29.99,
+         "sku": 3284876
+      },
+      {
+         "customerReviewAverage": "3.9",
+         "freeShipping": true,
+         "image": "http://images.bestbuy.com/BestBuy_US/images/products/1704/1704375_sa.jpg",
+         "longDescription": "With access to an array of new, convenient technological devices, such as mobile phones, tablets, PCs, portable DVD players, and more, entertainment technology needs to keep up. A digital era has dawned where technology is constantly evolving and shifting, and being able to enjoy your favorite DVD movies and TV shows wherever you are could be amazing. 123 Copy DVD Gold provides an efficient and progressive solution for ushering your media into the digital age and making it more universal with innovative file-conversion and copying technology. Copy and convert DVDs, Internet videos and more, so that your entertainment collection is accessible, no matter what device you have your hands on.  123 Copy DVD Gold quickly and easily converts DVD movies into high-quality digital files that you can access anywhere on your mobile phone, tablet, PC, Mac, Apple&amp;#174; iPad&amp;#174;, Motorola Xoom, Galaxy Tab, PlayStation 3, Xbox 360, Apple TV and more, delivering the flexibility you need to make your movie collection truly fluid. The software converts your video into a variety of the most popular file formats, including DivX, AVI, MPEG4, Windows Media Video and more, so that you can ensure widespread compatibility. Bring your favorite Internet videos from Facebook, YouTube, MySpace, Vimeo and more, as well as downloaded videos and treasured home videos, to the big screen by burning them to DVDs. Evolve your media collection with the rest of your technology &amp;#8212; it's as easy as 123.",
+         "name": "123 Copy DVD Gold - Windows",
+         "new": false,
+         "onSale": false,
+         "regularPrice": 49.99,
+         "salePrice": 49.99,
+         "sku": 1704375
+      },
+      {
+         "customerReviewAverage": "3.9",
+         "freeShipping": true,
+         "image": "http://images.bestbuy.com/BestBuy_US/images/products/1704/1704393_sa.jpg",
+         "longDescription": "Technology is constantly evolving and shifting, and your entertainment needs are moving right along with it. Between your mobile phone, PC, portable DVD player, 3DTV and other devices, you rarely watch movies the same way twice. You need your media to be just as flexible as your devices are. Now, there's an efficient and progressive solution for mobilizing your entertainment and making your media more universal &amp;#8212; all with the file conversion and copying technology of 123 Copy DVD Platinum. This Platinum edition gives you exclusive capabilities to copy and convert Blu-ray Discs, as well as all of your DVDs, Internet videos and more, so you can enjoy your entertainment collection in more ways than ever.   123 Copy DVD Platinum works with a variety of the most popular file formats, including DiVX, AVI, MPEG4, Windows Media Video and more, offering the flexibility you need to make your movie collection truly fluid. Quickly and easily convert Blu-ray and DVD movies into high-quality digital files that you can access anywhere on your mobile phone, tablet, PC, Mac, PSP and more. Watch your favorite videos from YouTube and Facebook on your TV screen by burning them to DVDs, and bring movies to life on your 3DTV with 2D-to-3D conversions. Store your media on the Cloud with unlimited space, included with this Platinum edition, and receive help anytime you need it from online tutorials and friendly support staff. Managing all of your media in the digital age can be as easy as 123.",
+         "name": "123 Copy DVD Platinum - Windows",
+         "new": false,
+         "onSale": false,
+         "regularPrice": 69.99,
+         "salePrice": 69.99,
+         "sku": 1704393
+      },
+      {
+         "customerReviewAverage": "4.7",
+         "freeShipping": false,
+         "image": "http://img.bbystatic.com/BestBuy_US/images/products/9416/9416016_sc.jpg",
+         "longDescription": "Make your friends or family members think they've received the video game they &amp;#8212; may not have expected &amp;#8212; with this hilarious 30 Watt Prank Pack Game Sleeve. Use the sleeve to disguise an Xbox One or Xbox 360 game as Birdwatcher IV Pacific Northwest. The recipient will think they're about to dive into the fun-filled world of feathered-friend observation. Hunt for and spot dozens of fowl species in eight unique regions of the Pacific Northwest, and rack up points in the bonus Night level &amp;#8212; that is, if any of that were true. Have some fun, and pull a joke on your friends or family with this 30 Watt Prank Pack Game Sleeve.",
+         "name": "30 Watt - Prank Pack Game Sleeve: Birdwatcher IV Pacific Northwest for ZBOX One - Multi",
+         "new": false,
+         "onSale": false,
+         "regularPrice": 1.99,
+         "salePrice": 1.99,
+         "sku": 9416016
+      },
+      {
+         "customerReviewAverage": "4.0",
+         "freeShipping": false,
+         "image": "http://img.bbystatic.com/BestBuy_US/images/products/9418/9418032_sc.jpg",
+         "longDescription": "Make your friends or family members think they've received the video game they &amp;#8212; may not have expected &amp;#8212; with this hilarious 30 Watt Prank Pack Game Sleeve. Place your desired Xbox One or Xbox 360 game case inside the sleeve to disguise it with Extreme Chores. The recipient will think they're about to race against the clock while performing important household tasks, including raking, washing dishes, digging and cleaning the litter box. Plus, with the addition of snap-on controller tools, they'll get to feel the excitement of what it is truly like to perform these tasks for an authentic gameplay experience &amp;#8212; that is, if any of that were true. Have some fun, and pull a joke on your friends or family with this 30 Watt Prank Pack Game Sleeve.",
+         "name": "30 Watt - Prank Pack Game Sleeve: Extreme Chores for ZBOX One - Multi",
+         "new": false,
+         "onSale": false,
+         "regularPrice": 1.99,
+         "salePrice": 1.99,
+         "sku": 9418032
+      },
+      {
+         "customerReviewAverage": null,
+         "freeShipping": false,
+         "image": "http://img.bbystatic.com/BestBuy_US/images/products/9420/9420027_sc.jpg",
+         "longDescription": "Make your friends or family members think they've received the video game they &amp;#8212; may not have expected &amp;#8212; with this hilarious 30 Watt Prank Pack Game Sleeve. Place your desired Xbox One or Xbox 360 game case inside the sleeve to disguise it with Thumbwrestler Xtreme XXL. The recipient will think they're about to vie for video game thumbwrestling excellence. Engage in epic thumb wars in 32 action-packed levels in a variety of arenas, as you climb the ranks to become champion. Dominate the dexterity of your opposition's opposable digits, which feature various lengths, widths and speeds &amp;#8212; that is, if any of that were true. Have some fun, and pull a joke on your friends or family with this 30 Watt Prank Pack Game Sleeve.",
+         "name": "30 Watt - Prank Pack Game Sleeve: Thumbwrestler Xtreme XXL for ZBOX One - Multi",
+         "new": false,
+         "onSale": false,
+         "regularPrice": 1.99,
+         "salePrice": 1.99,
+         "sku": 9420027
+      },
+      {
+         "customerReviewAverage": "3.1",
+         "freeShipping": false,
+         "image": "http://img.bbystatic.com/BestBuy_US/images/products/2755/2755149_105x210_sc.jpg",
+         "longDescription": "You're given the go ahead and you throttle up, screeching down the runway and soaring nearly straight up into the sky. As soon as you clear the cloud cover, you see the enemy directly ahead and you engage. Before you can fire a warning shot across his nose, your computer alerts you to an incoming missile and you instinctively roll to the right, barely missing it. You head straight down to the ground as the enemy gives chase. Pulling up just before hitting the Earth, you begin a cat-and-mouse chase across the ground toward the city. A split-second decision has you quickly dodging a skyscraper before heading back to face the enemy head on. With his plane targeted and your thumb poised over the button, will you turn him into supersonic debris?  Take to the skies for thrilling and visceral aerial battles in Ace Combat: Assault Horizon. Featuring a realistic storyline penned by New York Times bestseller and military author, Jim DeFelice, Ace Combat places you in the cockpit of an enthralling war drama that spans real-world locations around the globe. Engage in escalating combat that has you dodging skyscrapers, experiencing split-second maneuvering and positioning, pinpoint targeting, performing hovering attacks and turning enemies into supersonic debris. Perform daring acrobatics, dizzying one-on-one encounters and more. Clash with hostile forces in a variety of modes with the re-invented Ace Combat online. Are you ready for fast and high-flying combat?",
+         "name": "Ace Combat: Assault Horizon - Xbox 360",
+         "new": false,
+         "onSale": false,
+         "regularPrice": 19.99,
+         "salePrice": 19.99,
+         "sku": 2755149
+      },
+      {
+         "customerReviewAverage": "4.0",
+         "freeShipping": false,
+         "image": "http://img.bbystatic.com/BestBuy_US/images/products/4686/4686800_sc.jpg",
+         "longDescription": "It's About to Get Real  Guitar Hero Live is here. FreeStyleGames have reinvented the legendary Guitar Hero franchise, with two innovative new gameplay modes and an all-new guitar controller.  GH Live mode puts you onstage, looking out: you get a heart-stopping first-person perspective as a real crowd reacts to the notes you play. Or switch over to GHTV &amp;#8212; a playable music video network, where you can play along in real time, discover new music, and challenge friends around the world.  Coming October 20th to PlayStation 4, PlayStation 3, XBOX One, XBOX 360, WiiU, and select Mobile Devices.",
+         "name": "Activision - Guitar Hero Live Guitar Controller",
+         "new": false,
+         "onSale": true,
+         "regularPrice": 49.99,
+         "salePrice": 19.99,
+         "sku": 4686800
+      },
+      {
+         "customerReviewAverage": "3.3",
+         "freeShipping": false,
+         "image": "http://img.bbystatic.com/BestBuy_US/images/products/4687/4687224_sc.jpg",
+         "longDescription": "It's About to Get Real  Guitar Hero Live is here. FreeStyleGames have reinvented the legendary Guitar Hero franchise, with two innovative new gameplay modes and an all-new guitar controller.  GH Live mode puts you onstage, looking out: you get a heart-stopping first-person perspective as a real crowd reacts to the notes you play. Or switch over to GHTV &amp;#8212; a playable music video network, where you can play along in real time, discover new music, and challenge friends around the world.  Coming October 20th to PlayStation 4, PlayStation 3, XBOX One, XBOX 360, WiiU, and select Mobile Devices.",
+         "name": "Activision - Guitar Hero Live Guitar Controller",
+         "new": false,
+         "onSale": true,
+         "regularPrice": 49.99,
+         "salePrice": 19.99,
+         "sku": 4687224
+      },
+      {
+         "customerReviewAverage": null,
+         "freeShipping": true,
+         "image": null,
+         "longDescription": "It's About to Get Real  Guitar Hero Live is here. FreeStyleGames have reinvented the legendary Guitar Hero franchise, with two innovative new gameplay modes and an all-new guitar controller.  GH Live mode puts you onstage, looking out: you get a heart-stopping first-person perspective as a real crowd reacts to the notes you play. Or switch over to GHTV &amp;#8212; a playable music video network, where you can play along in real time, discover new music, and challenge friends around the world.  Coming October 20th to PlayStation 4, PlayStation 3, XBOX One, XBOX 360, WiiU, and select Mobile Devices.",
+         "name": "Activision - Guitar Hero Live Guitar Controller",
+         "new": false,
+         "onSale": false,
+         "regularPrice": 49.99,
+         "salePrice": 49.99,
+         "sku": 4684900
+      }
+   ],
+   "queryTime": "0.009",
+   "to": 10,
+   "total": 3078,
+   "totalPages": 308,
+   "totalTime": "0.037"
+}</outtemplate>
+        <outTemplateHeader>Server: thin 1.6.1 codename Death Proof
+X-Mashery-Responder: prod-j-worker-lax-03.mashery.com
+Content-Length: 13965
+Date: Fri, 08 Jan 2016 11:04:22 GMT
+Content-Type: application/json; charset=UTF-8
+</outTemplateHeader>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>products</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>/products</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>sku</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>sku</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>name</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>name</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>image</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>image</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>salePrice</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>salePrice</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>customerReviewAverage</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>customerReviewAverage</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>longDescription</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>longDescription</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>onSale</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>onSale</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>freeShipping</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>freeShipping</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>currentPage</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>currentPage</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>totalPages</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>totalPages</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>neww</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>new</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>regularPrice</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>regularPrice</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>products</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://api.bestbuy.com/v1/products($criteria)?show=name,longDescription,sku,salePrice,regularPrice,onSale,freeShipping,customerReviewAverage,image,new&amp;format=json&amp;pageSize=$pageSize&amp;page=$page&amp;apiKey=$apiKey</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

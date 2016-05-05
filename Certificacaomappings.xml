@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="Certificacao" name="Certificacao">
+    <container isflex="false" displayname="Popup" id="TempSegProdDetail" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="TempSegProdImgScreen" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="TempSegProdList" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="TempCallOut" type="dialog"/>
+    <container isflex="false" displayname="Form" id="FormCart" type="form"/>
+    <container isflex="false" displayname="Form" id="FormLocator" type="form">
+        <component displayname="TextBox2" id="TextFieldCity" type="textbox2"/>
+        <component displayname="Map" id="WidgetMap" type="map">
+            <attributes datatype="string" name="key" platform="general" value="AIzaSyAbZ0LS6ZF_0TNJfOqh0lM7JMZ2msfX9ws"/>
+        </component>
+    </container>
+    <container isflex="false" displayname="Form" id="FormPrincipal" type="form">
+        <component displayname="TextBox2" id="TextFieldSearch" type="textbox2"/>
+        <component displayname="ListBox" id="ListBoxSearch" type="listbox"/>
+    </container>
+    <container isflex="false" displayname="Form" id="FormProductDetail" type="form"/>
+    <container isflex="false" displayname="Form" id="FormProductImagesScreen" type="form">
+        <component displayname="ListBox" id="ListBoxProductScreen" type="listbox"/>
+    </container>
+    <container isflex="false" displayname="Form" id="FormProductList" type="form">
+        <component displayname="ListBox" id="ListBoxPagination" type="listbox"/>
+    </container>
+    <globalsequences/>
+    <skins/>
+</application>

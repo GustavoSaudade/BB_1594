@@ -1,0 +1,23 @@
+{
+	"AS_Button_fb5254b0aef34c08b6db08b0ff1b7909": {
+		"id": "AS_Button_fb5254b0aef34c08b6db08b0ff1b7909",
+		"type": "ACTION_SEQUENCE",
+		"name": "callBackBtnBackImageScreen",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"actions": [
+			{
+				"id": "NAVIGATE_TO_FORM___42e62f329b434a33afe8c26ceb775fb4",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "FormProductDetail",
+				"formKUID": "be71bb3a6f8b4a509bb2d066d5e2cbec",
+				"parentId": "",
+				"callbackType": null
+			}
+		]
+	}
+}

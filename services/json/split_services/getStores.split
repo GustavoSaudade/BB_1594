@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <includecookies></includecookies>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>bestBuy</group>
+        <httpmethod></httpmethod>
+        <id>getStores</id>
+        <identityProvider></identityProvider>
+        <identityProviderName></identityProviderName>
+        <ignoreProxy>false</ignoreProxy>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue>d66v29vzzj6h6wgttzeqefk4</defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>apiKey</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>d66v29vzzj6h6wgttzeqefk4</testvalue>
+            <value></value>
+        </inparam>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue>Dallas</defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>city</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>Dallas</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>{
+   "canonicalUrl": "/v1/stores(city=\"Dallas\")?format=json&amp;apiKey=d66v29vzzj6h6wgttzeqefk4",
+   "currentPage": 1,
+   "from": 1,
+   "partial": false,
+   "queryTime": "0.003",
+   "stores": [
+      {
+         "address": "4414 DFW Turnpike",
+         "address2": "",
+         "city": "Dallas",
+         "country": "US",
+         "fullPostalCode": "75211",
+         "gmtOffset": -5,
+         "hours": "Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-10; Sun: 11-8",
+         "hoursAmPm": "Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-10pm; Sun: 11am-8pm",
+         "lat": 32.765137,
+         "lng": -96.898529,
+         "longName": "Best Buy - Oak Cliff",
+         "name": "Oak Cliff",
+         "phone": "214-333-7587",
+         "postalCode": "75211",
+         "region": "TX",
+         "services": [
+            {"service": "Hablamos Español"},
+            {"service": "Best Buy For Business"},
+            {"service": "Geek Squad Services"},
+            {"service": "Best Buy Mobile"},
+            {"service": "Electronics Recycling"},
+            {"service": "Samsung Experience Shop"},
+            {"service": "Car &amp; GPS Installation Services"}
+         ],
+         "storeId": 1033,
+         "storeType": "BigBox",
+         "tradeIn": "Trade-In - No-receipt"
+      },
+      {
+         "address": "9378 N Central Expy",
+         "address2": "",
+         "city": "Dallas",
+         "country": "US",
+         "fullPostalCode": "75231",
+         "gmtOffset": -5,
+         "hours": "Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-10; Sun: 11-8",
+         "hoursAmPm": "Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-10pm; Sun: 11am-8pm",
+         "lat": 32.876068,
+         "lng": -96.768257,
+         "longName": "Best Buy - Park Lane",
+         "name": "Park Lane",
+         "phone": "214-696-2089",
+         "postalCode": "75231",
+         "region": "TX",
+         "services": [
+            {"service": "Geek Squad Services"},
+            {"service": "Best Buy Mobile"},
+            {"service": "Best Buy For Business"},
+            {"service": "Apple Shop"},
+            {"service": "Magnolia Design Center "},
+            {"service": "Pacific Kitchen &amp; Home"},
+            {"service": "Camera Experience Shop "},
+            {"service": "Windows Store"},
+            {"service": "Samsung Experience"},
+            {"service": "LG Experience "},
+            {"service": "Sony Experience "},
+            {"service": "Electronics Recycling"},
+            {"service": "Car &amp; GPS Installation Services"}
+         ],
+         "storeId": 58,
+         "storeType": "BigBox",
+         "tradeIn": "Trade-In - No-receipt"
+      },
+      {
+         "address": "8008 Cedar Springs Rd",
+         "address2": null,
+         "city": "Dallas",
+         "country": "US",
+         "fullPostalCode": "75235",
+         "gmtOffset": null,
+         "hours": "Mon: 0-11:59; Tue: 0-11:59; Wed: 0-11:59; Thurs: 0-11:59; Fri: 0-11:59; Sat: 0-11:59; Sun: 0-11:59",
+         "hoursAmPm": "Mon: 0am-11:59pm; Tue: 0am-11:59pm; Wed: 0am-11:59pm; Thurs: 0am-11:59pm; Fri: 0am-11:59pm; Sat: 0am-11:59pm; Sun: 0am-11:59pm",
+         "lat": 32.844212,
+         "lng": -96.849343,
+         "location": "North Concourse next to Fair Park Texas",
+         "longName": "DAL - Dallas Love Field North Concourse next to Fair Park Texas",
+         "name": "DAL - Dallas Love Field",
+         "phone": "877-415-3487",
+         "postalCode": "75235",
+         "region": "TX",
+         "services": [],
+         "storeId": 8052,
+         "storeType": "Express",
+         "tradeIn": "No Trade-Ins accepted"
+      },
+      {
+         "address": "13350 Dallas Parkway",
+         "address2": "#3475",
+         "city": "Dallas",
+         "country": "US",
+         "fullPostalCode": "75240",
+         "gmtOffset": 0,
+         "hours": "Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 12-6",
+         "hoursAmPm": "Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 12pm-6pm",
+         "lat": 32.931615,
+         "lng": -96.821136,
+         "longName": "Best Buy Mobile - Galleria Dallas",
+         "name": "Best Buy Mobile - Galleria Dallas",
+         "phone": "972-239-0576",
+         "postalCode": "75240",
+         "region": "TX",
+         "services": [
+            {"service": "Best Buy Mobile Specialty Store"},
+            {"service": "Electronics Recycling"},
+            {"service": "Samsung Experience Shop"}
+         ],
+         "storeId": 1664,
+         "storeType": "Mobile",
+         "tradeIn": "Trade-In - No-receipt"
+      },
+      {
+         "address": "5301 Beltline Road",
+         "address2": "Suite 110",
+         "city": "Dallas",
+         "country": "US",
+         "fullPostalCode": "75254",
+         "gmtOffset": -5,
+         "hours": "Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-10; Sun: 11-8",
+         "hoursAmPm": "Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-10pm; Sun: 11am-8pm",
+         "lat": 32.954121,
+         "lng": -96.815371,
+         "longName": "Best Buy - Prestonwood",
+         "name": "Prestonwood",
+         "phone": "972-419-1289",
+         "postalCode": "75254",
+         "region": "TX",
+         "services": [
+            {"service": "Geek Squad Services"},
+            {"service": "Best Buy Mobile"},
+            {"service": "Best Buy For Business"},
+            {"service": "Electronics Recycling"},
+            {"service": "Hablamos Español"},
+            {"service": " "},
+            {"service": "Samsung Experience"},
+            {"service": "Car &amp; GPS Installation Services"},
+            {"service": "Magnolia Home Theater"}
+         ],
+         "storeId": 2504,
+         "storeType": "BigBox",
+         "tradeIn": "Trade-In - No-receipt"
+      },
+      {
+         "address": "3200 East Airfield Drive",
+         "address2": null,
+         "city": "Dallas",
+         "country": "US",
+         "fullPostalCode": "75261",
+         "gmtOffset": null,
+         "hours": "Mon: 0-11:59; Tue: 0-11:59; Wed: 0-11:59; Thurs: 0-11:59; Fri: 0-11:59; Sat: 0-11:59; Sun: 0-11:59",
+         "hoursAmPm": "Mon: 0am-11:59pm; Tue: 0am-11:59pm; Wed: 0am-11:59pm; Thurs: 0am-11:59pm; Fri: 0am-11:59pm; Sat: 0am-11:59pm; Sun: 0am-11:59pm",
+         "lat": 32.897449,
+         "lng": -97.040653,
+         "location": "Terminal E Satellite Gate E26",
+         "longName": "DFW - Dallas/Fort Worth International Airport Terminal E Satellite Gate E26",
+         "name": "DFW - Dallas/Fort Worth International Airport",
+         "phone": "877-415-3487",
+         "postalCode": "75261",
+         "region": "TX",
+         "services": [],
+         "storeId": 8003,
+         "storeType": "Express",
+         "tradeIn": "No Trade-Ins accepted"
+      },
+      {
+         "address": "3200 East Airfield Drive",
+         "address2": null,
+         "city": "Dallas",
+         "country": "US",
+         "fullPostalCode": "75261",
+         "gmtOffset": null,
+         "hours": "Mon: 0-11:59; Tue: 0-11:59; Wed: 0-11:59; Thurs: 0-11:59; Fri: 0-11:59; Sat: 0-11:59; Sun: 0-11:59",
+         "hoursAmPm": "Mon: 0am-11:59pm; Tue: 0am-11:59pm; Wed: 0am-11:59pm; Thurs: 0am-11:59pm; Fri: 0am-11:59pm; Sat: 0am-11:59pm; Sun: 0am-11:59pm",
+         "lat": 32.897449,
+         "lng": -97.040653,
+         "location": "Terminal B Gate B12",
+         "longName": "DFW - Dallas/Fort Worth International Airport Terminal B Gate B12",
+         "name": "DFW - Dallas/Fort Worth International Airport",
+         "phone": "877-415-3487",
+         "postalCode": "75261",
+         "region": "TX",
+         "services": [],
+         "storeId": 8004,
+         "storeType": "Express",
+         "tradeIn": "No Trade-Ins accepted"
+      },
+      {
+         "address": "3200 East Airfield Drive",
+         "address2": null,
+         "city": "Dallas",
+         "country": "US",
+         "fullPostalCode": "75261",
+         "gmtOffset": null,
+         "hours": "Mon: 0-11:59; Tue: 0-11:59; Wed: 0-11:59; Thurs: 0-11:59; Fri: 0-11:59; Sat: 0-11:59; Sun: 0-11:59",
+         "hoursAmPm": "Mon: 0am-11:59pm; Tue: 0am-11:59pm; Wed: 0am-11:59pm; Thurs: 0am-11:59pm; Fri: 0am-11:59pm; Sat: 0am-11:59pm; Sun: 0am-11:59pm",
+         "lat": 32.897449,
+         "lng": -97.040653,
+         "location": "Terminal B Gate B45/B49",
+         "longName": "DFW - Dallas/Fort Worth International Airport Terminal B Gate B45/B49",
+         "name": "DFW - Dallas/Fort Worth International Airport",
+         "phone": "877-415-3487",
+         "postalCode": "75261",
+         "region": "TX",
+         "services": [],
+         "storeId": 8014,
+         "storeType": "Express",
+         "tradeIn": "No Trade-Ins accepted"
+      },
+      {
+         "address": "3200 East Airfield Drive",
+         "address2": null,
+         "city": "Dallas",
+         "country": "US",
+         "fullPostalCode": "75261",
+         "gmtOffset": null,
+         "hours": "Mon: 0-11:59; Tue: 0-11:59; Wed: 0-11:59; Thurs: 0-11:59; Fri: 0-11:59; Sat: 0-11:59; Sun: 0-11:59",
+         "hoursAmPm": "Mon: 0am-11:59pm; Tue: 0am-11:59pm; Wed: 0am-11:59pm; Thurs: 0am-11:59pm; Fri: 0am-11:59pm; Sat: 0am-11:59pm; Sun: 0am-11:59pm",
+         "lat": 32.897449,
+         "lng": -97.040653,
+         "location": "Terminal C Gate C31",
+         "longName": "DFW - Dallas/Fort Worth International Airport Terminal C Gate C31",
+         "name": "DFW - Dallas/Fort Worth International Airport",
+         "phone": "877-415-3487",
+         "postalCode": "75261",
+         "region": "TX",
+         "services": [],
+         "storeId": 8019,
+         "storeType": "Express",
+         "tradeIn": "No Trade-Ins accepted"
+      },
+      {
+         "address": "3200 East Airfield Drive",
+         "address2": null,
+         "city": "Dallas",
+         "country": "US",
+         "fullPostalCode": "75261",
+         "gmtOffset": null,
+         "hours": "Mon: 0-11:59; Tue: 0-11:59; Wed: 0-11:59; Thurs: 0-11:59; Fri: 0-11:59; Sat: 0-11:59; Sun: 0-11:59",
+         "hoursAmPm": "Mon: 0am-11:59pm; Tue: 0am-11:59pm; Wed: 0am-11:59pm; Thurs: 0am-11:59pm; Fri: 0am-11:59pm; Sat: 0am-11:59pm; Sun: 0am-11:59pm",
+         "lat": 32.897449,
+         "lng": -97.040653,
+         "location": "Terminal D Gate D24A",
+         "longName": "DFW - Dallas/Fort Worth International Airport Terminal D Gate D24A",
+         "name": "DFW - Dallas/Fort Worth International Airport",
+         "phone": "877-415-3487",
+         "postalCode": "75261",
+         "region": "TX",
+         "services": [],
+         "storeId": 8023,
+         "storeType": "Express",
+         "tradeIn": "No Trade-Ins accepted"
+      }
+   ],
+   "to": 10,
+   "total": 13,
+   "totalPages": 2,
+   "totalTime": "0.015"
+}</outtemplate>
+        <outTemplateHeader>Server: thin 1.6.1 codename Death Proof
+X-Mashery-Responder: prod-j-worker-lax-02.mashery.com
+Content-Length: 10703
+Date: Fri, 23 Oct 2015 16:30:46 GMT
+Content-Type: application/json; charset=UTF-8
+</outTemplateHeader>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>stores</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>/stores</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>name</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>name</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stores</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>address</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>address</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stores</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>hours</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>hours</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stores</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>lat</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>lat</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stores</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>lng</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>lng</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stores</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://api.bestbuy.com/v1/stores(city=$city)?format=json&amp;apiKey=$apiKey</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

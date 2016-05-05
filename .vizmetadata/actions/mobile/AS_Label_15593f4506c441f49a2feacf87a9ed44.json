@@ -1,0 +1,21 @@
+{
+	"AS_Label_15593f4506c441f49a2feacf87a9ed44": {
+		"id": "AS_Label_15593f4506c441f49a2feacf87a9ed44",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			},
+			{
+				"datatype": "string",
+				"name": "x"
+			},
+			{
+				"datatype": "string",
+				"name": "y"
+			}
+		],
+		"actions": []
+	}
+}

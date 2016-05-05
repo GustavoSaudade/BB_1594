@@ -1,0 +1,16 @@
+{
+	"AS_AppMenu_45171aa733af472ca2202abcd59325f7": {
+		"id": "AS_AppMenu_45171aa733af472ca2202abcd59325f7",
+		"type": "ACTION_SEQUENCE",
+		"name": "actionAppMenuCart",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET__00f113f6962746988a2eb9e871bd9500",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "clickCart();",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

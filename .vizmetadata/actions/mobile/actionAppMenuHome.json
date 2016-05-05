@@ -1,0 +1,16 @@
+{
+	"AS_AppMenu_a52d11cb991e435b8d3b7c26d982c73d": {
+		"id": "AS_AppMenu_a52d11cb991e435b8d3b7c26d982c73d",
+		"type": "ACTION_SEQUENCE",
+		"name": "actionAppMenuHome",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET__755af90edd2c40f094cc5b31f8939278",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "clickHome();",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}
