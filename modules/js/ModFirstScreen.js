@@ -45,6 +45,7 @@ function searchCategoriesById(parentCategory, parentCategoryName) {
             		processCategories(categoriesResponse);
 
         		} else {
+      				
             		openProductList(parentCategory, parentCategoryName);
             		//clean cache
             		firstScreenCache = {};

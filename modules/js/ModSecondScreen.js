@@ -54,9 +54,12 @@ function processProductListResponse(status, productListResponse){
 					message: "No products in this category...",
 					alertType:constants.ALERT_TYPE_ERROR,
 					alertTitle:"BestBuy",
-					yesLabel:"OK"}, {});
+					yesLabel:"OK",
+					alertHandler: handle1}, {});
 					
-				clickHome();
+				function handle1(response){
+					productListNavigateToBack();
+				}
 			}
 		}else{
 			if(productListResponse.opstatus == 5001){
