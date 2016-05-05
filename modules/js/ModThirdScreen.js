@@ -55,7 +55,11 @@ function loadProductReviews(sku) {
 }
 
 function processLoadReviewsResult(status, loadProductReviewResult){
-	FormProductDetail.LblTotalNumberOfReviews.text = kony.i18n.getLocalizedString("key2") +" "+ loadProductReviewResult.total;
+	if (loadProductReviewResult.total == 0) {
+		FormProductDetail.LblTotalNumberOfReviews.text = kony.i18n.getLocalizedString("key2") +" "+ "No reviews";
+	} else {
+		FormProductDetail.LblTotalNumberOfReviews.text = kony.i18n.getLocalizedString("key2") +" "+ loadProductReviewResult.total;
+	}
 	
 	if (status == 400){
 		kony.application.dismissLoadingScreen();

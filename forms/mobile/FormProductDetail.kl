@@ -10332,7 +10332,7 @@
                         <minHeight></minHeight>
                         <minWidth></minWidth>
                         <preferredHeight>26</preferredHeight>
-                        <preferredWidth>100</preferredWidth>
+                        <preferredWidth>360</preferredWidth>
                         <propertyVsUnit>
                             <entry>
                                 <key>Top</key>
@@ -10352,7 +10352,7 @@
                             </entry>
                             <entry>
                                 <key>Width</key>
-                                <value>preferred</value>
+                                <value>%</value>
                             </entry>
                             <entry>
                                 <key>Height</key>
@@ -10415,7 +10415,7 @@
                         <rowHeight>40</rowHeight>
                         <rowWidth>100</rowWidth>
                         <top>2</top>
-                        <width></width>
+                        <width>80</width>
                         <xlocation>9</xlocation>
                         <ylocation>3</ylocation>
                         <zOrder>1</zOrder>
@@ -10427,7 +10427,7 @@
                         <y>3</y>
                     </location>
                     <size>
-                        <width>100</width>
+                        <width>360</width>
                         <height>26</height>
                     </size>
                     <sizePercent>
