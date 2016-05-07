@@ -2,6 +2,7 @@ var clickedProduct = {};
 var processedImages = [];
 var selectedKey;
 var response;
+var currentPageReviews = 1;
 
 function showDetail(productData) {
 	clickedProduct = productData;
@@ -47,7 +48,9 @@ function loadProductReviews(sku) {
 	var inputParams = {
 		serviceID: 'getProductReviews',
 		sku: sku,
-		apiKey: 'c8ar37znr5983r6rvhzf8yra'
+		apiKey: 'c8ar37znr5983r6rvhzf8yra',
+		pageSize: '10',
+		page: currentPageReviews.toString()
 	};
 
 	kony.print("@@@@@@@@@@@@@@@@@@@@@@@@@> OPENING PRODUCT REVIEWS: " + JSON.stringify(inputParams));

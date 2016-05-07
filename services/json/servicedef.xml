@@ -79,7 +79,7 @@
       </service>
       <service cachable="false" cacheduration="" id="getProductReviews" passwordencrypted="true" smscode="" smsenabled="false" type="jsonConnector">
          <service-config>
-            <config-param name="endpointUrl" value="http://api.bestbuy.com/v1/reviews(sku=$sku)?format=json&amp;apiKey=$apiKey"/>
+            <config-param name="endpointUrl" value="http://api.bestbuy.com/v1/reviews(sku=$sku)?format=json&amp;apiKey=$apiKey&amp;pageSize=$pageSize&amp;page=$page"/>
             <config-param name="postprocessorname" value=""/>
             <config-param name="preprocessorname" value=""/>
             <config-param name="urlprovider" value=""/>
@@ -99,7 +99,9 @@
          </service-config>
          <service-input>
             <param datatype="string" encode="true" name="apiKey" sms-name="" src="request" value="c8ar37znr5983r6rvhzf8yra"/>
-            <param datatype="string" encode="true" name="sku" sms-name="" src="request" value="8524004"/>
+            <param datatype="string" encode="true" name="sku" sms-name="" src="request" value="1551069"/>
+            <param datatype="string" encode="true" name="pageSize" sms-name="" src="request" value="10"/>
+            <param datatype="string" encode="true" name="page" sms-name="" src="request" value="1"/>
          </service-input>
          <service-output>
             <param datatype="string" format="None" formatvalue="" name="total" sms-name="" src="/total" target="response"/>
@@ -109,6 +111,7 @@
                <param datatype="string" format="None" formatvalue="" name="rating" sms-name="" src="rating" target="response"/>
                <param datatype="string" format="None" formatvalue="" name="comment" sms-name="" src="comment" target="response"/>
             </dataset>
+            <param datatype="string" format="None" formatvalue="" name="currentPage" sms-name="" src="/currentPage" target="response"/>
             <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
             <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
             <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" target=""/>

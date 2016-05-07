@@ -41,7 +41,7 @@
         <inparam>
             <category></category>
             <datatype>string</datatype>
-            <defaultvalue>8524004</defaultvalue>
+            <defaultvalue>1551069</defaultvalue>
             <description></description>
             <encode>true</encode>
             <format>None</format>
@@ -57,99 +57,173 @@
             <srcformatvalue></srcformatvalue>
             <target></target>
             <targetdatatype></targetdatatype>
-            <testvalue>8524004</testvalue>
+            <testvalue>1551069</testvalue>
+            <value></value>
+        </inparam>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue>10</defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>pageSize</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>10</testvalue>
+            <value></value>
+        </inparam>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue>1</defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>page</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>1</testvalue>
             <value></value>
         </inparam>
         <intemplate></intemplate>
         <ntlmDomain></ntlmDomain>
         <ntlmHost></ntlmHost>
         <outtemplate>{
-   "canonicalUrl": "/v1/reviews(sku=8524004)?format=json&amp;apiKey=c8ar37znr5983r6rvhzf8yra",
+   "canonicalUrl": "/v1/reviews(sku=1551069)?format=json&amp;apiKey=c8ar37znr5983r6rvhzf8yra",
    "currentPage": 1,
    "from": 1,
    "partial": false,
-   "queryTime": "0.002",
+   "queryTime": "0.003",
    "reviews": [
       {
          "aboutMe": [],
-         "comment": "Bought this but returned it ASAP. Great for small areas like an office, but even in our kitchen it just wasn't powerful enough.",
-         "id": 69021358,
-         "rating": 3,
-         "reviewer": [{"name": "Oreho"}],
-         "sku": 8524004,
-         "submissionTime": "2015-11-08T22:21:58",
-         "title": "Good for small areas..."
-      },
-      {
-         "aboutMe": [],
-         "comment": "Love the style, size and battery life on this speaker!! Sound quality is great! I can connect it to any blue tooth device and stream music outside or inside. Great buy!",
-         "id": 67491130,
+         "comment": "Went everywhere and found this at a local store couldn't be more happier",
+         "id": 87337481,
          "rating": 5,
-         "reviewer": [{"name": "Warringtonbuyer99"}],
-         "sku": 8524004,
-         "submissionTime": "2015-10-21T13:20:44",
-         "title": "Great speakers"
+         "reviewer": [{"name": "muwu"}],
+         "sku": 1551069,
+         "submissionTime": "2016-05-05T09:37:58",
+         "title": "Good"
       },
       {
          "aboutMe": [],
-         "comment": "Great portable speakers - if WiFi is not a strong signal you have to connect to the device with the cord supplied.",
-         "id": 66913073,
-         "rating": 4,
-         "reviewer": [{"name": "TMR211"}],
-         "sku": 8524004,
-         "submissionTime": "2015-10-14T17:53:39",
-         "title": "Great portable speakers"
-      },
-      {
-         "aboutMe": [],
-         "comment": "Bought for party to pair with my phone, fully charged battery lasted all night long and great sound quality",
-         "id": 66909947,
-         "rating": 4,
-         "reviewer": [{"name": "cjmaurer39"}],
-         "sku": 8524004,
-         "submissionTime": "2015-10-14T17:29:48",
-         "title": "awesome backyard speaker"
-      },
-      {
-         "aboutMe": [],
-         "comment": "This is a great speaker, with great sound and was easy to set up.",
-         "id": 65101950,
+         "comment": "I just love my charging cable. This is the correct length that I needed forr my office.",
+         "id": 87192626,
          "rating": 5,
-         "reviewer": [{"name": "Pop1223"}],
-         "sku": 8524004,
-         "submissionTime": "2015-09-30T18:28:46",
-         "title": "Great speaker"
+         "reviewer": [{"name": "Yoli"}],
+         "sku": 1551069,
+         "submissionTime": "2016-05-03T09:53:34",
+         "title": "Right Length"
       },
       {
          "aboutMe": [],
-         "comment": "We really enjoy our Pasadena Portable Bluetooth Rechargeable Speaker System. It can go anywhere in the house or backyard and easily connects to your phone or other device. Has great sound quality.",
-         "id": 58702435,
+         "comment": "The product is everlasting its has a good quality I will alway direct a friend or a family member",
+         "id": 87013253,
          "rating": 5,
-         "reviewer": [{"name": "Hschauss"}],
-         "sku": 8524004,
-         "submissionTime": "2015-07-31T17:37:26",
-         "title": "Easy to use and great sound"
-      },
-      {
-         "aboutMe": [],
-         "comment": "Purchased for our back deck. Purchased just one speaker [you can get two for stereo]. Easy to set up. Easy to connect. Sound is rich and has depth. Has weathered rain, wind and birds.",
-         "id": 58194479,
-         "rating": 4,
-         "reviewer": [{"name": "bubba"}],
-         "sku": 8524004,
-         "submissionTime": "2015-07-25T15:58:29",
+         "reviewer": [{"name": "Yuwa"}],
+         "sku": 1551069,
+         "submissionTime": "2016-04-29T22:59:34",
          "title": "Excellent"
+      },
+      {
+         "aboutMe": [],
+         "comment": "Although after a got a new phone and didn't need it I couldn't return it. Not even for store credit",
+         "id": 87010110,
+         "rating": 3,
+         "reviewer": [{"name": "Smokie"}],
+         "sku": 1551069,
+         "submissionTime": "2016-04-29T20:47:07",
+         "title": "Did what I needed"
+      },
+      {
+         "aboutMe": [],
+         "comment": "I like it perfect I would recommend this to everyone",
+         "id": 87002594,
+         "rating": 5,
+         "reviewer": [{"name": "nick"}],
+         "sku": 1551069,
+         "submissionTime": "2016-04-29T17:58:36",
+         "title": "Great UCB charger"
+      },
+      {
+         "aboutMe": [],
+         "comment": "Exactly what we needed You could never go wrong with apple;)",
+         "id": 86996165,
+         "rating": 5,
+         "reviewer": [{"name": "Lopez"}],
+         "sku": 1551069,
+         "submissionTime": "2016-04-29T16:58:21",
+         "title": "Exactly what we needed"
+      },
+      {
+         "aboutMe": [],
+         "comment": "I lost my lap top charger and bought this one as a replacement. It works great.",
+         "id": 86992672,
+         "rating": 5,
+         "reviewer": [{"name": "Mark"}],
+         "sku": 1551069,
+         "submissionTime": "2016-04-29T16:44:41",
+         "title": "Does the job"
+      },
+      {
+         "aboutMe": [],
+         "comment": "I don't print a lot. But this product seems to last for a long time.",
+         "id": 86579078,
+         "rating": 5,
+         "reviewer": [{"name": "meekat"}],
+         "sku": 1551069,
+         "submissionTime": "2016-04-25T14:11:14",
+         "title": "great quality"
+      },
+      {
+         "aboutMe": [],
+         "comment": "I have tried purchasing the none brand cords to save money and it ends up costing me money. They stop charging my phone or iPad. Apple is the way to go",
+         "id": 86424866,
+         "rating": 5,
+         "reviewer": [{"name": "Usmc1021"}],
+         "sku": 1551069,
+         "submissionTime": "2016-04-23T08:21:56",
+         "title": "Works great"
+      },
+      {
+         "aboutMe": [],
+         "comment": "I purchased this computer about a week ago now and haven't had any issues. Just getting used to the windows 10 software.",
+         "id": 86367873,
+         "rating": 4,
+         "reviewer": [{"name": "Shawn"}],
+         "sku": 1551069,
+         "submissionTime": "2016-04-22T17:57:04",
+         "title": "Not bad"
       }
    ],
-   "to": 7,
-   "total": 7,
-   "totalPages": 1,
-   "totalTime": "0.007"
+   "to": 10,
+   "total": 1211,
+   "totalPages": 122,
+   "totalTime": "0.009"
 }</outtemplate>
         <outTemplateHeader>Server: thin 1.6.1 codename Death Proof
-X-Mashery-Responder: prod-j-worker-lax-02.mashery.com
-Content-Length: 3248
-Date: Thu, 10 Dec 2015 16:28:02 GMT
+X-Mashery-Responder: prod-j-worker-lax-04.mashery.com
+Content-Length: 3951
+Date: Sat, 07 May 2016 22:27:02 GMT
 Content-Type: application/json; charset=UTF-8
 </outTemplateHeader>
         <outparam>
@@ -284,6 +358,28 @@ Content-Type: application/json; charset=UTF-8
             <testvalue></testvalue>
             <value>reviews</value>
         </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>currentPage</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>/currentPage</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
         <password></password>
         <postclassname></postclassname>
         <preclassname></preclassname>
@@ -295,7 +391,7 @@ Content-Type: application/json; charset=UTF-8
         <smscode></smscode>
         <smsenabled>false</smsenabled>
         <timeout></timeout>
-        <url>http://api.bestbuy.com/v1/reviews(sku=$sku)?format=json&amp;apiKey=$apiKey</url>
+        <url>http://api.bestbuy.com/v1/reviews(sku=$sku)?format=json&amp;apiKey=$apiKey&amp;pageSize=$pageSize&amp;page=$page</url>
         <urlprovider></urlprovider>
         <userid></userid>
     </plainxmlservice>
