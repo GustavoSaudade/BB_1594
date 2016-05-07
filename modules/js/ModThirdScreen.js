@@ -14,10 +14,12 @@ function showDetail(productData) {
 
 	setStars(productData['customerReviewAverage']);
 
-	FormProductDetail.show();
-	closeHamburguer3();
 	kony.print("@@@@@@@@@@@@@@@@@@@@@@@@@> OPENING PRODUCT DETAIL: " + productData['sku']);
 	loadProductReviews(productData['sku']);
+	FormProductDetail.show();
+	closeHamburguer3();
+	FormProductDetail.FlexSegmProductReview.forceLayout();
+	
 }
 
 function setStars(customerReviewAverage) {
@@ -55,7 +57,7 @@ function loadProductReviews(sku) {
 }
 
 function processLoadReviewsResult(status, loadProductReviewResult){
-	if (loadProductReviewResult.total == 0) {
+	if (loadProductReviewResult == null || loadProductReviewResult.total == 0) {
 		FormProductDetail.LblTotalNumberOfReviews.text = kony.i18n.getLocalizedString("key2") +" "+ "No reviews";
 	} else {
 		FormProductDetail.LblTotalNumberOfReviews.text = kony.i18n.getLocalizedString("key2") +" "+ loadProductReviewResult.total;
@@ -66,7 +68,10 @@ function processLoadReviewsResult(status, loadProductReviewResult){
 		
 		if (loadProductReviewResult != null && loadProductReviewResult.opstatus == 0){
 			kony.print("@@@@@@@@@@@@@@@@@@@@@@@@@> RESPONSE SUCESSFUL: " + JSON.stringify(loadProductReviewResult));
+			
+			closeProductReview();
 			FormProductDetail.FlexSegmProductReview.setVisibility(false);
+			FormProductDetail.FlexProductReviews.forceLayout();
 			
 			if (loadProductReviewResult.reviews != null && loadProductReviewResult.reviews.length > 0){
 				setReviewsToWidget(loadProductReviewResult.reviews);
