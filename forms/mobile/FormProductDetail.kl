@@ -17169,33 +17169,9 @@
                         <serviceType>2</serviceType>
                         <function>None</function>
                         <choices>
-                            <name>1</name>
-                            <value>1</value>
+                            <name>none</name>
+                            <value>Select a page</value>
                             <selected>true</selected>
-                            <i18key></i18key>
-                            <a11yConfig>
-                                <a11yHidden>false</a11yHidden>
-                                <a11yHint></a11yHint>
-                                <a11yLabel></a11yLabel>
-                                <a11yValue></a11yValue>
-                            </a11yConfig>
-                        </choices>
-                        <choices>
-                            <name>2</name>
-                            <value>2</value>
-                            <selected>false</selected>
-                            <i18key></i18key>
-                            <a11yConfig>
-                                <a11yHidden>false</a11yHidden>
-                                <a11yHint></a11yHint>
-                                <a11yLabel></a11yLabel>
-                                <a11yValue></a11yValue>
-                            </a11yConfig>
-                        </choices>
-                        <choices>
-                            <name>3</name>
-                            <value>3</value>
-                            <selected>false</selected>
                             <i18key></i18key>
                             <a11yConfig>
                                 <a11yHidden>false</a11yHidden>

@@ -78,6 +78,7 @@ function processLoadReviewsResult(status, loadProductReviewResult){
 			
 			if (loadProductReviewResult.reviews != null && loadProductReviewResult.reviews.length > 0){
 				setReviewsToWidget(loadProductReviewResult.reviews);
+				setPaginationReviews(loadProductReviewResult);
 				FormProductDetail.FlexSegmProductReview.setVisibility(true);
 			}
 		}
@@ -261,4 +262,33 @@ function registerTimeOut(){
 function internacionalization() {
 	var currentLocal = kony.i18n.getCurrentLocale();
 	FormProductDetail.BtnAddToCart.text=kony.i18n.getLocalizedString("key1");
+}
+
+function setPaginationReviews(results) {
+
+	kony.print("@@@@@@@@@@@@@@@@@@@@@@@@@> SETTING PAGINATION REVIEWS. CURRENT PAGE = " + results.currentPage
+		+ " TOTAL OF PAGES = " + parseInt(results.totalPages));
+
+	var numberOfPages = parseInt(results.total);
+	var listOfPages = [["none", "<select a page>"]];
+	
+	if (numberOfPages >= 1){
+		
+		for (var i=1; i<=numberOfPages; i++){
+			var listOfPagesSuplement =
+				[i.toString(),i.toString()];
+				
+			listOfPages.push([i.toString(),i.toString()]);
+		}
+		
+		FormProductDetail.listBoxPaginationReviews.masterData = listOfPages;
+		if(currentPage == 1){
+			FormProductDetail.listBoxPaginationReviews.selectedKey = "none";
+		} else {
+			FormProductDetail.listBoxPaginationReviews.selectedKey = currentPage.toString();
+		}
+	} else {
+		FormProductDetail.listBoxPaginationReviews.setVisibility(false);
+	}
+	
 }
