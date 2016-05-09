@@ -3,6 +3,7 @@ var processedImages = [];
 var selectedKey;
 var response;
 var currentPageReviews = 1;
+var currentSku = "";
 
 function showDetail(productData) {
 	clickedProduct = productData;
@@ -45,6 +46,7 @@ function getStarImgName(rating) {
 }
 
 function loadProductReviews(sku) {
+	currentSku = sku;
 	var inputParams = {
 		serviceID: 'getProductReviews',
 		sku: sku,
@@ -62,6 +64,7 @@ function loadProductReviews(sku) {
 function processLoadReviewsResult(status, loadProductReviewResult){
 	if (loadProductReviewResult == null || loadProductReviewResult.total == 0) {
 		FormProductDetail.LblTotalNumberOfReviews.text = kony.i18n.getLocalizedString("key2") +" "+ "No reviews";
+		
 	} else {
 		FormProductDetail.LblTotalNumberOfReviews.text = kony.i18n.getLocalizedString("key2") +" "+ loadProductReviewResult.total;
 	}
@@ -80,11 +83,14 @@ function processLoadReviewsResult(status, loadProductReviewResult){
 				setReviewsToWidget(loadProductReviewResult.reviews);
 				setPaginationReviews(loadProductReviewResult);
 				FormProductDetail.FlexSegmProductReview.setVisibility(true);
+			} else {
+				var listOfPages = [["none", "<select a page>"]];
+				FormProductDetail.listBoxPaginationReviews.masterData = listOfPages;
 			}
 		}
 		else{
 			kony.ui.Alert({
-				message: "Service call failed with opstatus " + loadCategoryProductListResult.opstatus,
+				message: "Service call failed with opstatus " + loadProductReviewResult.opstatus,
 				alertType:constants.ALERT_TYPE_ERROR,
 				alertTitle:"BestBuy",
 				yesLabel:"OK"}, {});
@@ -282,13 +288,21 @@ function setPaginationReviews(results) {
 		}
 		
 		FormProductDetail.listBoxPaginationReviews.masterData = listOfPages;
-		if(currentPage == 1){
+		if(currentPageReviews == 1){
 			FormProductDetail.listBoxPaginationReviews.selectedKey = "none";
 		} else {
-			FormProductDetail.listBoxPaginationReviews.selectedKey = currentPage.toString();
+			FormProductDetail.listBoxPaginationReviews.selectedKey = currentPageReviews.toString();
 		}
 	} else {
 		FormProductDetail.listBoxPaginationReviews.setVisibility(false);
 	}
-	
 }
+
+function selectAPageReviews() {
+	currentPageReviews = FormProductDetail.listBoxPaginationReviews.selectedKey;
+	if (currentPageReviews == "none"){
+		currentPageReviews = "1";
+	}
+	loadProductReviews(currentSku);
+}
+

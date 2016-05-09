@@ -16452,13 +16452,13 @@
                         <contentSizeHeight></contentSizeHeight>
                         <contentSizeWidth></contentSizeWidth>
                         <height>10.0</height>
-                        <left>75.0</left>
+                        <left>55.0</left>
                         <maxHeight></maxHeight>
                         <maxWidth></maxWidth>
                         <minHeight></minHeight>
                         <minWidth></minWidth>
                         <preferredHeight>18</preferredHeight>
-                        <preferredWidth>90</preferredWidth>
+                        <preferredWidth>180</preferredWidth>
                         <propertyVsUnit>
                             <entry>
                                 <key>Top</key>
@@ -16541,19 +16541,19 @@
                         <rowHeight>40</rowHeight>
                         <rowWidth>100</rowWidth>
                         <top>89.0</top>
-                        <width>20</width>
-                        <xlocation>337</xlocation>
+                        <width>40</width>
+                        <xlocation>247</xlocation>
                         <ylocation>168</ylocation>
                         <zOrder>99</zOrder>
                     </flexConstraints>
                     <widgetID>p2kwiet195348075819</widgetID>
                     <createdGAVersion>6.5.0</createdGAVersion>
                     <location>
-                        <x>337</x>
+                        <x>247</x>
                         <y>168</y>
                     </location>
                     <size>
-                        <width>90</width>
+                        <width>180</width>
                         <height>18</height>
                     </size>
                     <sizePercent>
@@ -16575,6 +16575,24 @@
                     <nativeListFieldFocusSkin>Skin Defaults</nativeListFieldFocusSkin>
                     <onSelection>
                         <evtSequence>
+                            <actionList xsi:type="eventFunctionAction">
+                                <enabled>true</enabled>
+                                <name></name>
+                                <type>6</type>
+                                <functionName>None</functionName>
+                                <functionNameMap>
+                                    <entry>
+                                        <key>js</key>
+                                        <value>selectAPageReviews</value>
+                                    </entry>
+                                </functionNameMap>
+                                <paramDataMap>
+                                    <entry>
+                                        <key>js</key>
+                                        <value/>
+                                    </entry>
+                                </paramDataMap>
+                            </actionList>
                             <enabled>true</enabled>
                             <seqname></seqname>
                         </evtSequence>
@@ -17183,9 +17201,9 @@
                         <segData/>
                         <tablerowData/>
                         <dummydata>false</dummydata>
-                        <updatedToNewSegmentData>false</updatedToNewSegmentData>
-                        <updatedToNewTableRowData>false</updatedToNewTableRowData>
-                        <updatedToNewImageData>false</updatedToNewImageData>
+                        <updatedToNewSegmentData>true</updatedToNewSegmentData>
+                        <updatedToNewTableRowData>true</updatedToNewTableRowData>
+                        <updatedToNewImageData>true</updatedToNewImageData>
                     </choiceData>
                     <multiple>false</multiple>
                     <iphonedropDownImage></iphonedropDownImage>
