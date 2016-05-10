@@ -648,7 +648,7 @@
                 <seqname></seqname>
             </evtSequence>
         </onOrientationChange>
-        <titlebar>true</titlebar>
+        <titlebar>false</titlebar>
         <footerOverlap>false</footerOverlap>
         <headerOverlap>false</headerOverlap>
         <c_isModal>false</c_isModal>
@@ -725,7 +725,7 @@
             <rightbuttonI18Key>None</rightbuttonI18Key>
             <skinID>slTitleBar</skinID>
             <usrDefFunction></usrDefFunction>
-            <visible>true</visible>
+            <visible>false</visible>
             <textChecked>true</textChecked>
         </iphoneTitleBarData>
         <iphone_isModal>false</iphone_isModal>
@@ -4345,7 +4345,7 @@
                         </xhtmlNormal>
                         <xhtmlNormal_override>false</xhtmlNormal_override>
                     </paddings>
-                    <SText>Google map key is not defined in application properties</SText>
+                    <SText>AIzaSyDM9SlyO3OH6WIlNyFtvhJW3FGv4hZBGFI</SText>
                     <overridePerferred>
                         <width>true</width>
                         <height>false</height>

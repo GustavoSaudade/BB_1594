@@ -696,7 +696,7 @@
                 <seqname></seqname>
             </evtSequence>
         </onOrientationChange>
-        <titlebar>true</titlebar>
+        <titlebar>false</titlebar>
         <footerOverlap>false</footerOverlap>
         <headerOverlap>false</headerOverlap>
         <c_isModal>false</c_isModal>
@@ -773,7 +773,7 @@
             <rightbuttonI18Key>None</rightbuttonI18Key>
             <skinID>slTitleBar</skinID>
             <usrDefFunction></usrDefFunction>
-            <visible>true</visible>
+            <visible>false</visible>
             <textChecked>true</textChecked>
         </iphoneTitleBarData>
         <iphone_isModal>false</iphone_isModal>
