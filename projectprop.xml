@@ -14,7 +14,7 @@
     <attributes name="READ_SMS" value="false"/>
     <attributes name="DEVICE_POWER" value="false"/>
     <attributes name="appportkey" value="808"/>
-    <attributes name="cloud_selected_ipaddress_list" value="http://192.168.25.5:8080"/>
+    <attributes name="cloud_selected_ipaddress_list" value="http://127.0.0.1:8080,http://10.99.1.38:8080"/>
     <attributes name="tcphoneformatindicator" value="false"/>
     <attributes name="antialiaseddrawing" value="false"/>
     <attributes name="Pictures_Library_Access" value="true"/>
@@ -363,7 +363,7 @@
     <attributes name="tcbjs320basefontsize" value="10"/>
     <attributes name="APPLICATION_THEME" value="default"/>
     <attributes name="wp8packagepublisheridkey" value=""/>
-    <attributes name="cloud_url" value="http://192.168.25.5:8080"/>
+    <attributes name="cloud_url" value="http://10.99.1.38:8080"/>
     <attributes name="disablehttpskey" value="false"/>
     <attributes name="Music_Library" value="true"/>
     <attributes name="Location" value="true"/>
