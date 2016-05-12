@@ -275,7 +275,7 @@ function setPaginationReviews(results) {
 	kony.print("@@@@@@@@@@@@@@@@@@@@@@@@@> SETTING PAGINATION REVIEWS. CURRENT PAGE = " + results.currentPage
 		+ " TOTAL OF PAGES = " + parseInt(results.totalPages));
 
-	var numberOfPages = parseInt(results.total);
+	var numberOfPages = parseInt(results.totalPages);
 	var listOfPages = [["none", "<select a page>"]];
 	
 	if (numberOfPages >= 1){

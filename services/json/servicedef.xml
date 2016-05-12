@@ -112,6 +112,7 @@
                <param datatype="string" format="None" formatvalue="" name="comment" sms-name="" src="comment" target="response"/>
             </dataset>
             <param datatype="string" format="None" formatvalue="" name="currentPage" sms-name="" src="/currentPage" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="totalPages" sms-name="" src="/totalPages" target="response"/>
             <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
             <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
             <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" target=""/>

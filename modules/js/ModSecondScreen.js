@@ -112,6 +112,8 @@ function clickRowProd() {
 	var selectedData = FormProductList.SegmentProdList.selectedItems[0];
 
 	kony.print("@@@@@@@@@@@@@@@@@@@@@@@@@> CLICKED ON PRODUCT. SELECTED DATA = " + JSON.stringify(selectedData));
+	
+	currentPageReviews = 1;
 	showDetail(selectedData);
 }
 
