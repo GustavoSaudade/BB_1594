@@ -277,6 +277,7 @@ function setPaginationReviews(results) {
 
 	var numberOfPages = parseInt(results.totalPages);
 	var listOfPages = [["none", "<select a page>"]];
+	var currentPage = results.currentPage;
 	
 	if (numberOfPages >= 1){
 		
@@ -290,8 +291,10 @@ function setPaginationReviews(results) {
 		FormProductDetail.listBoxPaginationReviews.masterData = listOfPages;
 		if(currentPageReviews == 1){
 			FormProductDetail.listBoxPaginationReviews.selectedKey = "none";
+			FormProductDetail.labelTotalPagesReview.text = "Page "+currentPage+" of "+numberOfPages+" pages";
 		} else {
 			FormProductDetail.listBoxPaginationReviews.selectedKey = currentPageReviews.toString();
+			FormProductDetail.labelTotalPagesReview.text = "Page "+currentPage+" of "+numberOfPages+" pages";
 		}
 	} else {
 		FormProductDetail.listBoxPaginationReviews.setVisibility(false);
