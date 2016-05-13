@@ -17,7 +17,7 @@ function clickStore(){
 	FormLocator.show();
 	closeHamburguer6();
 	cleanCityCriteria();
-	FormLocator.WidgetMap.locationData = "";
+	var mapData = [];
 	initMap();
 	
 }

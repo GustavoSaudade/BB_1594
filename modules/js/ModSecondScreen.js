@@ -56,7 +56,7 @@ function processProductListResponse(status, productListResponse){
 					alertHandler: handle1}, {});
 					
 				function handle1(response){
-					clickCategoryBack();
+					clickHome();
 				}
 			}
 		}else{

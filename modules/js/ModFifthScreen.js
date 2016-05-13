@@ -4,8 +4,19 @@ function initMap(){
 	if (FormLocator.TextFieldCity.text == ""){
 		var locationData = {lat :"0",lon :"0"};
 		FormLocator.WidgetMap.navigateToLocation(locationData,false,false);
+		//#ifdef android
+			FormLocator.WidgetMap.locationData = {};
+		//#endif
+		//#ifdef iphone
+			FormLocator.WidgetMap.locationData = "";
+		//#endif
+		//#ifdef spaan
+			FormLocator.WidgetMap.locationData = "";
+		//#endif
+		//#ifdef spaip
+			FormLocator.WidgetMap.locationData = "";
+		//#endif
 		
-		//var cityName = "New York";
 	} else {
 		var cityName = FormLocator.TextFieldCity.text;
 		kony.print("@@@@@@@@@@@@@@@@@@@@@@@@@> SEARCHING FOR: " + cityName);
