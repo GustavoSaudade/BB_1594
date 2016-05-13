@@ -45,7 +45,7 @@
     <attributes name="RECORD_AUDIO" value="false"/>
     <attributes name="Text_Messaging" value="true"/>
     <attributes name="apmgestureswipe" value="false"/>
-    <attributes name="appaddrkey" value="http://192.168.25.5:8080"/>
+    <attributes name="appaddrkey" value="http://10.99.1.38:8080"/>
     <attributes name="svcusedefault" value="true"/>
     <attributes name="appnamekey" value="Certification"/>
     <attributes name="currentgaversion" value="6.5.2.GA_v201603071212_r10"/>
@@ -275,7 +275,7 @@
     <attributes name="wp8descriptionkey" value="Sample Test Application"/>
     <attributes name="win8shownamekey" value="Not set"/>
     <attributes name="inputaccessoryviewtype" value="nextprevtoolbar"/>
-    <attributes name="svcaddrkey" value="http://192.168.25.5:8080"/>
+    <attributes name="svcaddrkey" value="http://10.99.1.38:8080"/>
     <attributes name="CALL_PHONE" value="false"/>
     <attributes name="SIGNAL_PERSISTENT_PROCESSES" value="false"/>
     <attributes name="desktopwebbasefontsize" value="16"/>

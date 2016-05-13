@@ -181,7 +181,10 @@ function setImagesToWidget(images) {
 		'energyGuideImage',
 		'alternateViewsImage',
 		'angleImage',
-		'accessoriesImage'
+		'accessoriesImage',
+		'thumbnailImage',
+		'mediumImage',
+		'largeImage'
 	];
 
 	kony.print("@@@@@@@@@@@@@@@@@@@@@@@@@> IMAGES: " + JSON.stringify(images));
@@ -221,6 +224,15 @@ function setImagesToWidget(images) {
 					break;
 				case "angleImage":
 					imagesToListBox.push([attribute,"Angle View"]);
+					break;
+				case "thumbnailImage":
+					imagesToListBox.push([attribute,"Thumbnail"]);
+					break;
+				case "mediumImage":
+					imagesToListBox.push([attribute,"Medium"]);
+					break;
+				case "largeImage":
+					imagesToListBox.push([attribute,"Large"]);
 					break;
 				case "accessoriesImage":
 					imagesToListBox.push([attribute,"Accessories View"]);

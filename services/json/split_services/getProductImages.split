@@ -41,7 +41,7 @@
         <inparam>
             <category></category>
             <datatype>string</datatype>
-            <defaultvalue>8524004</defaultvalue>
+            <defaultvalue>1551069</defaultvalue>
             <description></description>
             <encode>true</encode>
             <format>None</format>
@@ -57,39 +57,42 @@
             <srcformatvalue></srcformatvalue>
             <target></target>
             <targetdatatype></targetdatatype>
-            <testvalue>8524004</testvalue>
+            <testvalue>1551069</testvalue>
             <value></value>
         </inparam>
         <intemplate></intemplate>
         <ntlmDomain></ntlmDomain>
         <ntlmHost></ntlmHost>
         <outtemplate>{
-   "canonicalUrl": "/v1/products(sku=8524004)?show=accessoriesImage,alternateViewsImage,angleImage,backViewImage,energyGuideImage,largeFrontImage,leftViewImage,remoteControlImage,rightViewImage,topViewImage&amp;format=json&amp;apiKey=c8ar37znr5983r6rvhzf8yra",
+   "canonicalUrl": "/v1/products(sku=1551069)?show=largeImage,mediumImage,thumbnailImage,accessoriesImage,alternateViewsImage,angleImage,backViewImage,energyGuideImage,largeFrontImage,leftViewImage,remoteControlImage,rightViewImage,topViewImage&amp;format=json&amp;apiKey=c8ar37znr5983r6rvhzf8yra",
    "currentPage": 1,
    "from": 1,
    "partial": false,
    "products": [{
       "accessoriesImage": null,
       "alternateViewsImage": null,
-      "angleImage": "http://img.bbystatic.com/BestBuy_US/images/products/8524/8524004_ra.jpg",
+      "angleImage": null,
       "backViewImage": null,
       "energyGuideImage": null,
-      "largeFrontImage": "http://img.bbystatic.com/BestBuy_US/images/products/8524/8524004_sa.jpg",
+      "largeFrontImage": "http://img.bbystatic.com/BestBuy_US/images/products/1551/1551069_sa.jpg",
+      "largeImage": "http://img.bbystatic.com/BestBuy_US/images/products/1551/1551069_sb.jpg",
       "leftViewImage": null,
+      "mediumImage": "http://img.bbystatic.com/BestBuy_US/images/products/1551/1551069fp.gif",
       "remoteControlImage": null,
       "rightViewImage": null,
+      "thumbnailImage": "http://img.bbystatic.com/BestBuy_US/images/products/1551/1551069_s.gif",
       "topViewImage": null
    }],
    "queryTime": "0.003",
    "to": 1,
    "total": 1,
    "totalPages": 1,
-   "totalTime": "0.007"
+   "totalTime": "0.008"
 }</outtemplate>
         <outTemplateHeader>Server: thin 1.6.1 codename Death Proof
-X-Mashery-Responder: prod-j-worker-lax-04.mashery.com
-Content-Length: 875
-Date: Thu, 10 Dec 2015 16:27:54 GMT
+X-Mashery-Responder: prod-j-worker-lax-03.mashery.com
+Content-Length: 1132
+Date: Fri, 13 May 2016 14:02:14 GMT
 Content-Type: application/json; charset=UTF-8
 </outTemplateHeader>
         <outparam>
@@ -312,6 +315,72 @@ Content-Type: application/json; charset=UTF-8
             <testvalue></testvalue>
             <value></value>
         </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>thumbnailImage</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>/products/thumbnailImage</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>mediumImage</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>/products/mediumImage</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>largeImage</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>/products/largeImage</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
         <password></password>
         <postclassname></postclassname>
         <preclassname></preclassname>
@@ -323,7 +392,7 @@ Content-Type: application/json; charset=UTF-8
         <smscode></smscode>
         <smsenabled>false</smsenabled>
         <timeout></timeout>
-        <url>http://api.bestbuy.com/v1/products(sku=$sku)?show=accessoriesImage,alternateViewsImage,angleImage,backViewImage,energyGuideImage,largeFrontImage,leftViewImage,remoteControlImage,rightViewImage,topViewImage&amp;format=json&amp;apiKey=$apiKey</url>
+        <url>http://api.bestbuy.com/v1/products(sku=$sku)?show=largeImage,mediumImage,thumbnailImage,accessoriesImage,alternateViewsImage,angleImage,backViewImage,energyGuideImage,largeFrontImage,leftViewImage,remoteControlImage,rightViewImage,topViewImage&amp;format=json&amp;apiKey=$apiKey</url>
         <urlprovider></urlprovider>
         <userid></userid>
     </plainxmlservice>

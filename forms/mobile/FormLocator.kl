@@ -4373,7 +4373,7 @@
                             <seqname></seqname>
                         </evtSequence>
                     </map_onClick>
-                    <iphone_zoomlevel>23</iphone_zoomlevel>
+                    <iphone_zoomlevel>17</iphone_zoomlevel>
                     <iphone_currentlocation>none</iphone_currentlocation>
                     <iphone_view>normal</iphone_view>
                     <ipad_zoomlevel>14</ipad_zoomlevel>
@@ -4611,7 +4611,7 @@
                     <winphone7_zoomlevel>0</winphone7_zoomlevel>
                     <winphone8_zoomlevel>0</winphone8_zoomlevel>
                     <windows8_zoomlevel>2</windows8_zoomlevel>
-                    <calloutWidth>80</calloutWidth>
+                    <calloutWidth>50</calloutWidth>
                     <containerWeight>100</containerWeight>
                     <projectState>1</projectState>
                     <general_containerHeight></general_containerHeight>

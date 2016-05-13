@@ -39,7 +39,7 @@
       </service>
       <service cachable="false" cacheduration="" id="getProductImages" passwordencrypted="true" smscode="" smsenabled="false" type="jsonConnector">
          <service-config>
-            <config-param name="endpointUrl" value="http://api.bestbuy.com/v1/products(sku=$sku)?show=accessoriesImage,alternateViewsImage,angleImage,backViewImage,energyGuideImage,largeFrontImage,leftViewImage,remoteControlImage,rightViewImage,topViewImage&amp;format=json&amp;apiKey=$apiKey"/>
+            <config-param name="endpointUrl" value="http://api.bestbuy.com/v1/products(sku=$sku)?show=largeImage,mediumImage,thumbnailImage,accessoriesImage,alternateViewsImage,angleImage,backViewImage,energyGuideImage,largeFrontImage,leftViewImage,remoteControlImage,rightViewImage,topViewImage&amp;format=json&amp;apiKey=$apiKey"/>
             <config-param name="postprocessorname" value=""/>
             <config-param name="preprocessorname" value=""/>
             <config-param name="urlprovider" value=""/>
@@ -59,7 +59,7 @@
          </service-config>
          <service-input>
             <param datatype="string" encode="true" name="apiKey" sms-name="" src="request" value="c8ar37znr5983r6rvhzf8yra"/>
-            <param datatype="string" encode="true" name="sku" sms-name="" src="request" value="8524004"/>
+            <param datatype="string" encode="true" name="sku" sms-name="" src="request" value="1551069"/>
          </service-input>
          <service-output>
             <param datatype="string" format="None" formatvalue="" name="accessoriesImage" sms-name="" src="/products/accessoriesImage" target="response"/>
@@ -72,6 +72,9 @@
             <param datatype="string" format="None" formatvalue="" name="remoteControlImage" sms-name="" src="/products/remoteControlImage" target="response"/>
             <param datatype="string" format="None" formatvalue="" name="rightViewImage" sms-name="" src="/products/rightViewImage" target="response"/>
             <param datatype="string" format="None" formatvalue="" name="topViewImage" sms-name="" src="/products/topViewImage" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="thumbnailImage" sms-name="" src="/products/thumbnailImage" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="mediumImage" sms-name="" src="/products/mediumImage" target="response"/>
+            <param datatype="string" format="None" formatvalue="" name="largeImage" sms-name="" src="/products/largeImage" target="response"/>
             <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
             <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
             <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" target=""/>

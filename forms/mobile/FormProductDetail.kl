@@ -16452,13 +16452,13 @@
                         <contentSizeHeight></contentSizeHeight>
                         <contentSizeWidth></contentSizeWidth>
                         <height>10.0</height>
-                        <left>68.0</left>
+                        <left>63.0</left>
                         <maxHeight></maxHeight>
                         <maxWidth></maxWidth>
                         <minHeight></minHeight>
                         <minWidth></minWidth>
                         <preferredHeight>18</preferredHeight>
-                        <preferredWidth>135</preferredWidth>
+                        <preferredWidth>153</preferredWidth>
                         <propertyVsUnit>
                             <entry>
                                 <key>Top</key>
@@ -16541,19 +16541,19 @@
                         <rowHeight>40</rowHeight>
                         <rowWidth>100</rowWidth>
                         <top>89.0</top>
-                        <width>30</width>
-                        <xlocation>306</xlocation>
+                        <width>34</width>
+                        <xlocation>283</xlocation>
                         <ylocation>168</ylocation>
                         <zOrder>99</zOrder>
                     </flexConstraints>
                     <widgetID>p2kwiet195348075819</widgetID>
                     <createdGAVersion>6.5.0</createdGAVersion>
                     <location>
-                        <x>306</x>
+                        <x>283</x>
                         <y>168</y>
                     </location>
                     <size>
-                        <width>135</width>
+                        <width>153</width>
                         <height>18</height>
                     </size>
                     <sizePercent>
