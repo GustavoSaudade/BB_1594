@@ -9,7 +9,6 @@ function initMap(){
 	} else {
 		var cityName = FormLocator.TextFieldCity.text;
 		kony.print("@@@@@@@@@@@@@@@@@@@@@@@@@> SEARCHING FOR: " + cityName);
-	
 		searchStores(cityName);
 		FormLocator.WidgetMap.zoomLevel = 9;
 	}
@@ -25,7 +24,7 @@ function searchStores(cityName) {
 	
 	kony.print("@@@@@@@@@@@@@@@@@@@@@@@@@> CALL THE SERVICE STORES WITH ATTRIBUTES: " + JSON.stringify(inputParams));
 	
-	kony.application.showLoadingScreen(null,"Please Wait",constants.LOADING_SCREEN_POSITION_ONLY_CENTER, false,true,{enableMenuKey:true, enableBackKey:true});
+	kony.application.showLoadingScreen(null,"Searching for Stores",constants.LOADING_SCREEN_POSITION_ONLY_CENTER, false,true,{enableMenuKey:true, enableBackKey:true});
 	appmiddlewareinvokerasync(inputParams, processLoadStoresResult);
 }
 
